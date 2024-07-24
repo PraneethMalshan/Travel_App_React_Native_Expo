@@ -1,13 +1,15 @@
-import { View, Text, Image, StyleSheet, ImageBackground } from 'react-native'
-import React from 'react'
-// import ReusableText from '../../components/index';
-import ReusableText from '../Reusable/ReusableText'
-import ReusableBtn from '../Reusable/ReusableBtn'
-import HightSpacer from '../Reusable/HeightSpacer'
-// import { COLORS, SIZES } from "../../constance/theme"
-// import styles from './slides.style.js'
+import { View, Text, Image, StyleSheet, ImageBackground } from 'react-native';
+import React from 'react';
+import ReusableText from '../Reusable/ReusableText';
+import ReusableBtn from '../Reusable/ReusableBtn';
+import HightSpacer from '../Reusable/HeightSpacer';
+import { useNavigation } from '@react-navigation/native';
+
 
 const Slides = ({item}) => {
+
+  const navigation = useNavigation();
+  
   return (
     <View>
       {/* <Image source={item.image} style={styles.image}/> */}
@@ -22,10 +24,10 @@ const Slides = ({item}) => {
         <HightSpacer />
 
         <ReusableBtn 
-          onPress={()=> {}}
+          onPress={()=> navigation.navigate('Bottom')}
           btnText={"Let's Go"}
-          // width={40}
         />
+
        </View>
 
     </View>
