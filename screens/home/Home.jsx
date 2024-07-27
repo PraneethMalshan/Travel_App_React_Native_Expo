@@ -2,9 +2,9 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import reusable from '../../components/Reusable/reusable.style'
-import { HightSpacer, ReusableText } from '../../components'
+import { HightSpacer, ReusableText, Places } from '../../components'
 import { AntDesign } from '@expo/vector-icons'
-import { COLORS, SIZES } from '../../constance/theme'
+import { COLORS, SIZES, TEXT } from '../../constance/theme'
 
 const Home = ({ navigation }) => {
   return (
@@ -15,6 +15,11 @@ const Home = ({ navigation }) => {
           <Text style={styles.textStyle}>
             Hey User!
           </Text>
+          {/* <ReusableText  style={styles.textStyle1}
+          text={"Hey User!"}
+          size={TEXT.large}
+          color={COLORS.black}
+        /> */}
 
           <TouchableOpacity style={styles.box}
             onPress={()=> navigation.navigate('Search')}
@@ -28,9 +33,17 @@ const Home = ({ navigation }) => {
 
         <HightSpacer height={SIZES.xLarge}/>
 
-        <Text style={styles.textStyle1}>
+        {/* <Text style={styles.textStyle1}>
             Places
-        </Text>
+        </Text> */}
+        <ReusableText  style={styles.textStyle1}
+          text={"Places"}
+          // family={'bold'}
+          size={TEXT.large}
+          color={COLORS.black}
+        />
+
+        <Places />
 
       </View>
     </SafeAreaView>
@@ -54,8 +67,8 @@ const styles = StyleSheet.create({
     justifyContent: "center"
 },
   textStyle1:{
-    fontSize: 21,
-    color: "black",
+    // fontSize: 21,
+    // color: "black",
     fontWeight: 'bold'
 },
 })

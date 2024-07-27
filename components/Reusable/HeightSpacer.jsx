@@ -13,6 +13,6 @@ export default HightSpacer
 
 const styles = StyleSheet.create({
     styleHight: {
-        height:30
+        height:20
     }
 })

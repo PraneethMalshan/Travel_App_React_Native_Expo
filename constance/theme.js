@@ -36,6 +36,7 @@ const TEXT = {
     large: 21,
     xLarge: 27,
     xxLarge: 32,
+    xxxLarge:38
 };
 
 const SHADOWS = {

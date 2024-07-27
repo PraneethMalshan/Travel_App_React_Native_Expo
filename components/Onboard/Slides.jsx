@@ -4,7 +4,7 @@ import ReusableText from '../Reusable/ReusableText';
 import ReusableBtn from '../Reusable/ReusableBtn';
 import HightSpacer from '../Reusable/HeightSpacer';
 import { useNavigation } from '@react-navigation/native';
-
+import { TEXT, COLORS } from '../../constance/theme';
 
 const Slides = ({item}) => {
 
@@ -17,11 +17,16 @@ const Slides = ({item}) => {
        <ImageBackground source={item.image} style={styles.image}/>
        <View style={styles.stack}>
 
+        
         <ReusableText 
           text={item.title}
+          family={'bold'}
+          size={TEXT.xxxLarge}
+          color={COLORS.white}
         />
 
         <HightSpacer />
+        
 
         <ReusableBtn 
           onPress={()=> navigation.navigate('Bottom')}
