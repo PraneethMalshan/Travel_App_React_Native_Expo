@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const ReusableText = ({text, family, size, color}) => {
+const ReusableText = ({text, family, size, color, align}) => {
   return (
     //   <Text style={styles.textStyle}>{text}</Text>
-      <Text style={styles.textStyle(family, size, color)}>{text}</Text>
+      <Text style={styles.textStyle(family, size, color, align)}>{text}</Text>
 
   )
 }
@@ -12,11 +12,12 @@ const ReusableText = ({text, family, size, color}) => {
 export default ReusableText
 
 const styles = StyleSheet.create({
-    textStyle: (family, size, color)=>({
+    textStyle: (family, size, color, align)=>({
         fontFamily: family,
         color: color,
         fontSize: size,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        textAlign: align
     })
     
 })

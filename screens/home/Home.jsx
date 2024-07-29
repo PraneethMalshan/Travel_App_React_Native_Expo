@@ -15,11 +15,6 @@ const Home = ({ navigation }) => {
           <Text style={styles.textStyle}>
             Hey User!
           </Text>
-          {/* <ReusableText  style={styles.textStyle1}
-          text={"Hey User!"}
-          size={TEXT.large}
-          color={COLORS.black}
-        /> */}
 
           <TouchableOpacity style={styles.box}
             onPress={()=> navigation.navigate('Search')}
