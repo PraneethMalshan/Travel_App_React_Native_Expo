@@ -6,7 +6,8 @@ import Profile from "./profile/Profile";
 import Search from "./search/Search";
 import CountryDetails from "./details/CountryDetails";
 import Recommended from "./details/Recommended";
-
+import PlaceDetails from "./details/PlaceDetails";
+import HotelDetails from "./details/HotelDetails";
 
 export {
     Onboarding,
@@ -16,5 +17,7 @@ export {
     Profile,
     Search,
     CountryDetails,
-    Recommended
+    Recommended,
+    PlaceDetails,
+    HotelDetails
 }

@@ -2,11 +2,12 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import reusable from '../../components/Reusable/reusable.style'
-import { HightSpacer, Recommendation, ReusableText } from '../../components'
+import { HightSpacer, Recommendations, ReusableText } from '../../components'
 import Places from "../../components/Home/Places"
 import { AntDesign } from '@expo/vector-icons'
 import { COLORS, SIZES, TEXT } from '../../constance/theme'
-import Recommendations from '../../components/Home/Recommendations'
+import BestHotels from "../../components/Home/BestHotels"
+// import Recommendations from '../../components/Home/Recommendations'
 
 const Home = ({ navigation }) => {
   return (
@@ -43,6 +44,10 @@ const Home = ({ navigation }) => {
         {/* <HightSpacer height={15}/> */}
 
         <Recommendations />
+
+        <HightSpacer height={15}/>
+
+        <BestHotels />
 
       </View>
     </SafeAreaView>

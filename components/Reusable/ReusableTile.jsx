@@ -19,7 +19,6 @@ const ReusableTile = ({ item, onPress }) => {
 
             <View>
                 <ReusableText 
-                    // style={styles.textStyle1}
                     text={item.title}
                     size={SIZES.medium}
                     color={COLORS.black}
@@ -28,7 +27,6 @@ const ReusableTile = ({ item, onPress }) => {
                 <HightSpacer height={8}/>
 
                 <ReusableText 
-                    // style={styles.textStyle1}
                     text={item.location}
                     size={14}
                     color={COLORS.gray}
@@ -43,7 +41,6 @@ const ReusableTile = ({ item, onPress }) => {
                     <WidthSpacer width={5}/>
 
                     <ReusableText 
-                        // style={styles.textStyle1}
                         text={` (${item.review}) `}
                         size={14}
                         color={COLORS.gray}
