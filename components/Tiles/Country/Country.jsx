@@ -3,11 +3,14 @@ import React from 'react'
 // import ReusableText from '../../Reusable/ReusableText'
 import { COLORS, TEXT } from '../../../constance/theme'
 import { HightSpacer, NetworkImage, ReusableText } from '../../../components/index';
-
+import { useNavigation } from '@react-navigation/native';
 
 const Country = ({ item }) => {
+
+  const navigation = useNavigation();
+
   return (
-    <TouchableOpacity >
+    <TouchableOpacity onPress={()=> navigation.navigate('CountryDetails', {item})}>
         <View>
 
             <NetworkImage 
@@ -27,7 +30,7 @@ const Country = ({ item }) => {
               color={COLORS.black}
               align={"center"}
             />
-
+            <HightSpacer height={5} />
         </View>
     </TouchableOpacity>
   )
