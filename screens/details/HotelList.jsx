@@ -73,7 +73,7 @@ const HotelList = ({navigation}) => {
           icon={'search1'} 
           color1={COLORS.white}
           onPress={()=> navigation.goBack()}
-          onPress1={()=> navigation.navigate('Search')}
+          onPress1={()=> navigation.navigate('HotelSearch')}
         />
       </View>
 
@@ -83,7 +83,9 @@ const HotelList = ({navigation}) => {
           keyExtractor={(item)=> item._id}
           renderItem={({item}) => (
             <View style={{marginBottom: 10}}>
-              <ReusableTile item={item} onPress={()=> navigation.navigate('PlaceDetails', item._id)}/>
+              <ReusableTile 
+                item={item} 
+                onPress={()=> navigation.navigate('HotelDetails', item._id)}/>
             </View>
           )}
         />
