@@ -9,15 +9,20 @@ import NetworkImage from "./Reusable/NetworkImage";
 import Recommendations from "./Home/Recommendations";
 // import ReusableTile from "./Reusable/ReusableTile";
 import Rating from "./Reusable/Rating";
+import AppBar from "./Reusable/AppBar";
 import Hspace from "./Reusable/Hspace";
 // import BestHotels from "./Home/BestHotels";
 // import HotelCard from "./Tiles/Hotels/HotelCard";
+import DescriptionText from "./Reusable/DescriptionText";
+import PopularList from "./Country/PopularList";
+import ReUseBtn from "./Reusable/ReUseBtn";
 
 
 export {
     Slides, 
     ReusableText,
     ReusableBtn,
+
     HightSpacer,
     WidthSpacer,
     Hspace,
@@ -29,5 +34,8 @@ export {
     Rating,
     // BestHotels,
     // HotelCard
-
+    AppBar,
+    DescriptionText,
+    PopularList,
+    ReUseBtn
 }
