@@ -37,7 +37,6 @@ const CountryDetails = ({ navigation }) => {
   };
 
   return (
-    // <SafeAreaView style={styles.container}>
       <ScrollView>
         <View>
           <NetworkImage 
@@ -68,13 +67,13 @@ const CountryDetails = ({ navigation }) => {
             color={COLORS.black}
           />
 
-          <DescriptionText text={country.description}/>
+          <DescriptionText text={country.description} />
 
           <View style={{ alignContent: 'center' }}>
           <Hspace height={20}/>
             <View style={reusable.rowWithSpace("space-between")}>
               <ReusableText 
-                text={"Popular Description"}
+                text={"Popular Destinations"}
                 size={TEXT.large}
                 color={COLORS.black}
               />
@@ -106,7 +105,6 @@ const CountryDetails = ({ navigation }) => {
         </View>
 
       </ScrollView>
-    // </SafeAreaView>
   )
 }
 
