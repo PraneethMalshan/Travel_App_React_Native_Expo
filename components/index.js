@@ -11,11 +11,15 @@ import Recommendations from "./Home/Recommendations";
 import Rating from "./Reusable/Rating";
 import AppBar from "./Reusable/AppBar";
 import Hspace from "./Reusable/Hspace";
+import Wspace from "./Reusable/Wspace";
 // import BestHotels from "./Home/BestHotels";
 // import HotelCard from "./Tiles/Hotels/HotelCard";
 import DescriptionText from "./Reusable/DescriptionText";
 import PopularList from "./Country/PopularList";
 import ReUseBtn from "./Reusable/ReUseBtn";
+import HotelMap from "./Hotel/HotelMap";
+import ReviewTile from "./Tiles/Reviews/ReviewTile";
+import ReviewsList from "./Hotel/ReviewsList";
 
 
 export {
@@ -26,6 +30,7 @@ export {
     HightSpacer,
     WidthSpacer,
     Hspace,
+    Wspace,
     Places,
     // Country,
     NetworkImage,
@@ -37,5 +42,8 @@ export {
     AppBar,
     DescriptionText,
     PopularList,
-    ReUseBtn
+    ReUseBtn,
+    HotelMap,
+    ReviewTile,
+    ReviewsList
 }
