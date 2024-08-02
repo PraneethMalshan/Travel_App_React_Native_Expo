@@ -39,7 +39,7 @@ const HotelList = ({navigation}) => {
         "_id": "64d0b5a4d3cb4985a76ac1aa",
         "country_id": "64c62bfc65af9f8c969a8d04",
         "title": "Hotel Alpha",
-        "imageUrl": "https://lh3.googleusercontent.com/proxy/dTDXl9GzN0Nj5wnKrjvXEOva5Da84L3REC79Z47Fk2gYMy3Q7K6jLAHOILcEwlz05V9423JIIYuqOz86QVIkBcfXBka7wmU3Eo0",
+        "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518332246.jpg?k=852d9e83009ac082a7bb8366d5e27fb1f21801ea9cb6dde9c14e1aa99c49ea63&o=&hp=1",
         "rating": 4.7,
         "review": "1204 Reviews",
         "location": "City Center, USA"

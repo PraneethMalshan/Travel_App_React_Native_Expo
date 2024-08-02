@@ -7,10 +7,8 @@ import { Feather } from '@expo/vector-icons'
 import { COLORS } from '../../constance/theme'
 import { Hspace } from '../../components'
 import ReusableTile from '../../components/Reusable/ReusableTile'
-// import { useRoute } from '@react-navigation/native'
 
 const Search = ({navigation}) => {
-  // const route = useRoute();
   const [searchKey, setSearchKey] = useState('')
   const [searchResults, setSearchResults] = useState([])
   const search =  [
