@@ -16,7 +16,7 @@ const TopTab = () => {
             <View>
 
                 <NetworkImage 
-                    source={"https://c4.wallpaperflare.com/wallpaper/848/223/819/nature-jpg-format-download-1920x1200-wallpaper-preview.jpg"}
+                    source={"https://aebc975c.rocketcdn.me/wp-content/uploads/2020/12/plage.jpg"}
                     width={'100%'}
                     height={300}
                     radius={0}

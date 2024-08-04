@@ -1,10 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { ProfileTile } from '../../components'
 
-const TopInfo = () => {
+const TopInfo = ({navigation}) => {
   return (
-    <View>
-      <Text>TopInfo</Text>
+    <View style={{margin: 20}}>
+      {/* onPress={onPress} style={[reusable.rowWithSpace('space-between'), styles.container]} */}
+      <ProfileTile title={"Personal Information"} icon={'user'}/>
+      <ProfileTile title={"Payments"} icon={'creditcard'} onPress={()=> navigation.navigate('Payments')}/>
+      <ProfileTile title={"Setting"} icon={'setting'} onPress={()=> navigation.navigate('Settings')}/>
+      
     </View>
   )
 }

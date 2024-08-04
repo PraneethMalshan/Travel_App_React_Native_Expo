@@ -20,6 +20,9 @@ import ReUseBtn from "./Reusable/ReUseBtn";
 import HotelMap from "./Hotel/HotelMap";
 import ReviewTile from "./Tiles/Reviews/ReviewTile";
 import ReviewsList from "./Hotel/ReviewsList";
+import ProfileTile from './Reusable/ProfileTile'
+import SettingTile from "./Tiles/Settings/SettingTile";
+import AssetImage from "./Reusable/AssetImage";
 
 
 export {
@@ -45,5 +48,8 @@ export {
     ReUseBtn,
     HotelMap,
     ReviewTile,
-    ReviewsList
+    ReviewsList,
+    ProfileTile,
+    SettingTile,
+    AssetImage
 }
