@@ -85,9 +85,9 @@ const SelectRoom = ({navigation}) => {
             <ReusableTile item={item}/>
             <Hspace height={10} />
 
-            <View style={btnStyle}>
+            <View style={styles.btnStyle}>
               <ReUseBtn 
-                  onPress={() => navigation.navigate("SelectedRoom")}
+                  onPress={() => navigation.navigate("SelectedRoom", {item})}
                   btnText={"Select Room"}
                   width={SIZES.width - 50}
                   backgroundColor={COLORS.lightBlue}

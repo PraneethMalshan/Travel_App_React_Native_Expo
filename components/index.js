@@ -23,13 +23,14 @@ import ReviewsList from "./Hotel/ReviewsList";
 import ProfileTile from './Reusable/ProfileTile'
 import SettingTile from "./Tiles/Settings/SettingTile";
 import AssetImage from "./Reusable/AssetImage";
+import Counter from "./Reusable/Counter";
 
 
 export {
     Slides, 
     ReusableText,
+    Counter,
     ReusableBtn,
-
     HightSpacer,
     WidthSpacer,
     Hspace,
@@ -52,4 +53,5 @@ export {
     ProfileTile,
     SettingTile,
     AssetImage
+    
 }
