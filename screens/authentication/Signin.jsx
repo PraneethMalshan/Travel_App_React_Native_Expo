@@ -43,7 +43,8 @@ const Signin = () => {
             isValid,
             setFieldTouched
        }) => (                     
-            <View>
+            <View style={{paddingTop: 20}}>
+
                 <View style={styles.wrapper}>
                     <Text style={styles.label}>Email</Text>
                     <View>
