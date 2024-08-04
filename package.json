@@ -29,7 +29,8 @@
     "react-native-screens": "^3.32.0",
     "react-native-stock-star-rating": "^1.0.6",
     "react-native-tab-view": "^3.5.2",
-    "react-native-vector-icons": "^10.1.0"
+    "react-native-vector-icons": "^10.1.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

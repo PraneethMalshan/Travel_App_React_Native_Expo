@@ -67,14 +67,14 @@ const Successfull = ({navigation}) => {
             <Hspace height={40}/>
 
             <ReUseBtn 
-            onPress={() => navigation.navigate('Bottom')}
-            btnText={"Done"}
-            width={SIZES.width - 50}
-            backgroundColor={COLORS.lightBlue}
-            borderColor={COLORS.green}
-            borderWidth={0}
-            textColor={COLORS.white}
-          />
+                onPress={() => navigation.navigate('Bottom')}
+                btnText={"Done"}
+                width={SIZES.width - 50}
+                backgroundColor={COLORS.lightBlue}
+                borderColor={COLORS.green}
+                borderWidth={0}
+                textColor={COLORS.white}
+            />
         </View>
 
       </View>
