@@ -13,7 +13,7 @@ export default ReusableText
 
 const styles = StyleSheet.create({
     textStyle: (family, size, color, align)=>({
-        fontFamily: family,
+        // fontFamily: family,
         color: color,
         fontSize: size,
         fontWeight: 'bold',

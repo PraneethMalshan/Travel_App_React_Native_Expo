@@ -42,11 +42,11 @@ const BestHotels = () => {
         {
             "_id": "64d0b5a4d3cb4985a76ac1aa",
             "country_id": "64c62bfc65af9f8c969a8d04",
-            "title": "Hotel Alpha",
-            "imageUrl": "https://lh3.googleusercontent.com/proxy/dTDXl9GzN0Nj5wnKrjvXEOva5Da84L3REC79Z47Fk2gYMy3Q7K6jLAHOILcEwlz05V9423JIIYuqOz86QVIkBcfXBka7wmU3Eo0",
+            "title": "The Plaza Hotel",
+            "imageUrl": "https://static.therealdeal.com/wp-content/uploads/2017/07/the-plaza.jpg",
             "rating": 4.7,
             "review": "1204 Reviews",
-            "location": "City Center, USA"
+            "location": "New York City, USA"
         },
         {
             "_id": "64c675be3cfa5e847bcd5439",

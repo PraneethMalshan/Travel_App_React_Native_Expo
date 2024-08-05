@@ -14,23 +14,25 @@ const CountryDetails = ({ navigation }) => {
       "_id": "64c62bfc65af9f8c969a8d04",
       "country": "USA",
       "description": "The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.",
-      "imageUrl": "https://i.natgeofe.com/k/57873055-5e16-4eac-add4-c08c8b5f3bd7/united-states-statue-of-liberty_square.jpg",
+      "imageUrl": "https://www.nationsencyclopedia.com/photos/united-states-of-america-1087.jpg",
       "popular": [
           {
               "_id": "64c631650298a05640539adc",
-              "title": "Walt Disney World",
-              "imageUrl": "https://images.contentstack.io/v3/assets/bltba617d00249585dc/blt00ea1d7ad3d5c4ed/60aeafc2a450c25ac83d12a0/probstwdw-heromobile-1440x1440.jpg",
+              "title": "New York City",
+              // "imageUrl": "https://images.contentstack.io/v3/assets/bltba617d00249585dc/blt00ea1d7ad3d5c4ed/60aeafc2a450c25ac83d12a0/probstwdw-heromobile-1440x1440.jpg",
+              "imageUrl": "https://media.istockphoto.com/id/533998713/photo/empire-state-building-at-night.jpg?s=612x612&w=0&k=20&c=2fZCcZq3186F9R2WHZ2hEBh4dVsOX7pqgcVRXXn195I=",
               "rating": 4.7,
               "review": "1204 Reviews",
-              "location": "Orlando, USA"
+              "location": "New York City, New York"
           },
           {
               "_id": "64d062a3de20d7c932f1f70a",
-              "title": "Statue of Liberty",
-              "imageUrl": "https://cdn.mos.cms.futurecdn.net/XsbvTN6PRi6PZtgEGvRsiE.jpg",
+              "title": "Los Angeles",
+              // "imageUrl": "https://cdn.mos.cms.futurecdn.net/XsbvTN6PRi6PZtgEGvRsiE.jpg",
+              "imageUrl": "https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1920/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg.webp?itok=Ix2-Cac8",
               "rating": 4.8,
               "review": "1452 Reviews",
-              "location": "Liberty Island, New York Harbor"
+              "location": "Los Angeles, California"
           }
       ],
       "region": "North America, USA"

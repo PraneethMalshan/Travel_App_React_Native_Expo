@@ -15,7 +15,7 @@ export default DescriptionText
 const styles = StyleSheet.create({
     description: {
         paddingVertical: 10,
-        fontFamily: "regular",
+        // fontFamily: "regular",
         textAlign: "justify",
         fontSize: TEXT.medium
     }

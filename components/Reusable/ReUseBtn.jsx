@@ -14,7 +14,7 @@ const ReUseBtn = ({ onPress, btnText, textColor, width, backgroundColor, borderW
 export default ReUseBtn
 const styles = StyleSheet.create({
     btnText: (textColor) => ({
-        fontFamily: "medium",
+        // fontFamily: "medium",
         fontSize: SIZES.medium,
         color: textColor
     }),

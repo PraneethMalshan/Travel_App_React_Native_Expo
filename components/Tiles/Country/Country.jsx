@@ -25,7 +25,7 @@ const Country = ({ item }) => {
 
             <ReusableText  
               text={item.country}
-              family={"medium"}
+              // family={"medium"}
               size={TEXT.medium}
               color={COLORS.black}
               align={"center"}

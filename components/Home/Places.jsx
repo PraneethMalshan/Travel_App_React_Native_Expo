@@ -13,7 +13,7 @@ const Places = () => {
         description:
           "Sri Lanka is an island nation located in the Indian Ocean, just off the southeastern coast of India. Despite its modest size—slightly larger than the state of West Virginia—Sri Lanka has a population of about 20 million people, almost equal to the population of Texas.",
         imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxQTCeBHBu7UIolvKUx8fnhYUXatZrE29kWcsCQfBSrioZu8UFUpeNw7QXqIYhMqEu4o&usqp=CAU",
+        "https://media.licdn.com/dms/image/D5612AQGExOIT_A5fCw/article-cover_image-shrink_600_2000/0/1684057558449?e=2147483647&v=beta&t=nnGSrxsyuAyayMNrxlVV9YFieSQX4Dq_S0sQX7aaZGA",
         region: "Kandy, Sri Lanka",
       },
       {
@@ -22,7 +22,7 @@ const Places = () => {
          description:
            "The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.",
          imageUrl:
-           "https://i.natgeofe.com/k/57873055-5e16-4eac-add4-c08c8b5f3bd7/united-states-statue-of-liberty_square.jpg",
+           "https://www.nationsencyclopedia.com/photos/united-states-of-america-1087.jpg",
          region: "North America, USA",
        },
        {

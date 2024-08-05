@@ -23,9 +23,10 @@ const Recommendations = () => {
         {
             "_id": "64c631650298a05640539adc",
             "country_id": "64c62bfc65af9f8c969a8d04",
-            "title": "Walt Disney World",
+            "title": "New York City",
             "location": "U.S.A. New York",
-            "imageUrl": "https://img.freepik.com/premium-photo/statue-liberty-new-york-city-skyline-usa_741910-5910.jpg",
+            "imageUrl": "https://media.istockphoto.com/id/533998713/photo/empire-state-building-at-night.jpg?s=612x612&w=0&k=20&c=2fZCcZq3186F9R2WHZ2hEBh4dVsOX7pqgcVRXXn195I=",
+            // "imageUrl": "https://img.freepik.com/premium-photo/statue-liberty-new-york-city-skyline-usa_741910-5910.jpg",
             "rating": 4.7,
             "review": "1204 Reviews"
         },
@@ -73,7 +74,7 @@ const Recommendations = () => {
       <View style={[reusable.rowWithSpace('space-between'), {paaddingBottom: 20}]}>
         <ReusableText 
             text={"Recommendations"}
-            family={"medium"}
+            // family={"medium"}
             size={TEXT.large}
             color={COLORS.black}
         />

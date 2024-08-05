@@ -20,7 +20,7 @@ const Slides = ({item}) => {
         
         <ReusableText 
           text={item.title}
-          family={'bold'}
+          // family={'bold'}
           size={TEXT.xxxLarge}
           color={COLORS.white}
         />

@@ -16,11 +16,11 @@ const HotelSearch = ({navigation}) => {
     {
         "_id": "64c674d23cfa5e847bcd5429",
         "country_id": "64c62bfc65af9f8c969a8d03",
-        "title": "Queens Hotel",
-        "imageUrl": "https://t3.ftcdn.net/jpg/03/68/27/32/360_F_368273296_PvxFFlEsHhiHr2DuLwpA4LTSvIMZ9EIP.jpg",
+        "title": "The Plaza Hotel",
+        "imageUrl": "https://static.therealdeal.com/wp-content/uploads/2017/07/the-plaza.jpg",
         "rating": 4.3,
         "review": "1104 Reviews",
-        "location": "Kandy, SL"
+        "location": "Central Park, USA",
     },
     {
         "_id": "64c674d23cfa5e847bcd5430",
@@ -29,7 +29,7 @@ const HotelSearch = ({navigation}) => {
         "imageUrl": "https://www.jetwinghotels.com/wp-content/uploads/2019/06/bentota-hotels-category-744x653-1.jpg",
         "rating": 4.9,
         "review": "1204 Reviews",
-        "location": "Miami Beach, FL"
+        "location": "Park Avenue, USA"
     },
     {
         "_id": "64c675183cfa5e847bcd5433",
@@ -38,7 +38,7 @@ const HotelSearch = ({navigation}) => {
         "imageUrl": "https://www.avenuecalgary.com/wp-content/uploads/2022/10/BasecampLodgeGolden_Basecamp_Resorts_Golden_Jussi_Grznar-2.jpg",
         "rating": 4.5,
         "review": "12024 Reviews",
-        "location": "Aspen, CO"
+        "location": "Madison Avenue, USA"
     },
     {
         "_id": "64d0b5a4d3cb4985a76ac1aa",
@@ -56,12 +56,12 @@ const HotelSearch = ({navigation}) => {
         "imageUrl": "https://pix10.agoda.net/hotelImages/35962090/-1/7f19af9347ca1e06215de00ae32f21aa.jpg?ce=0&s=702x392",
         "rating": 4.6,
         "review": "12854 Reviews",
-        "location": "Orlando, FL"
+        "location": "Meatpacking District, USA"
     },
     {
         "_id": "64c67442776ed29f19727fd7",
         "country_id": "64c62bfc65af9f8c969a8d04",
-        "title": "Luxury Hotel 1",
+        "title": "The Carlyle Resort",
         "imageUrl": "https://www.hotel.de/de/media/image/79/13/cd/Alpha_Genesis_Hotel-Kuala_Lumpur-Aussenansicht-537758.jpg",
         "rating": 4.7,
         "review": "1204 Reviews",

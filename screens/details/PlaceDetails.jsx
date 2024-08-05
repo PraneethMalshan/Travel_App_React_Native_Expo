@@ -15,31 +15,32 @@ const PlaceDetails = ({navigation}) => {
     const place = {
       "_id": "64d062a3de20d7c932f1f70a",
       "country_id": "64c62bfc65af9f8c969a8d04",
-      "title": "Statue of Liberty",
-      "description": "The Statue of Liberty is an iconic symbol of freedom and democracy, located on Liberty Island in New York Harbor. This colossal statue was a gift from France to the United States and was dedicated in 1886. Standing at 305 feet tall, the statue represents Libertas, the Roman goddess of liberty, holding a torch and a tablet inscribed with the date of the American Declaration of Independence. The Statue of Liberty has welcomed countless immigrants to the USA, serving as a symbol of hope and opportunity.",
+      "title": "New York City",
+      "description": "New York City, often called 'The Big Apple' is a vibrant and diverse metropolis known for its iconic landmarks, world-class museums, and bustling cultural scene. Visitors can explore famous attractions like the Statue of Liberty, Central Park, and Times Square, catch a Broadway show, and enjoy the city's diverse culinary offerings. With its blend of history, art, and modernity, NYC offers an unforgettable urban experience.",
       "contact_id": "64c5d95adc7efae2a45ec376",
-      "imageUrl": "https://www.statueoflibertytour.com/wp-content/uploads/2022/05/statue-of-liberty-gaffb1612d_1920.jpg",
+      "imageUrl": "https://media.istockphoto.com/id/533998713/photo/empire-state-building-at-night.jpg?s=612x612&w=0&k=20&c=2fZCcZq3186F9R2WHZ2hEBh4dVsOX7pqgcVRXXn195I=",
+      // "imageUrl": "https://www.statueoflibertytour.com/wp-content/uploads/2022/05/statue-of-liberty-gaffb1612d_1920.jpg",
       "rating": 4.8,
       "review": "1452 Reviews",
       "latitude": 40.689247,
       "longitude": -74.044502,
-      "location": "Liberty Island, New York Harbor",
+      "location": "New York City, New York",
       "popular": [
           {
               "_id": "64c675be3cfa5e847bcd5439",
-              "title": "Family-Friendly Resort",
-              "imageUrl": "https://www.jetwinghotels.com/wp-content/uploads/2019/06/bentota-hotels-category-744x653-1.jpg",
+              "title": "The Plaza Hotel",
+              "imageUrl": "https://static.therealdeal.com/wp-content/uploads/2017/07/the-plaza.jpg",
               "rating": 4.6,
               "review": "12854 Reviews",
-              "location": "Orlando, FL"
+              "location": "New York City, USA"
           },
           {
               "_id": "64c675793cfa5e847bcd5436",
-              "title": "Urban Chic Boutique Hotel",
-              "imageUrl": "https://www.avenuecalgary.com/wp-content/uploads/2022/10/BasecampLodgeGolden_Basecamp_Resorts_Golden_Jussi_Grznar-2.jpg",
+              "title": "The Waldorf Astoria",
+              "imageUrl": "https://assets.hiltonstatic.com/hilton-asset-cache/image/upload/c_fill,w_1920,h_1080,q_70,f_auto,g_auto/Imagery/Property%20Photography/Waldorf%20Astoria/D/DOHQTWA/WALD_1762__2_.jpg",
               "rating": 4.8,
               "review": "2312 Reviews",
-              "location": "San Francisco, CA"
+              "location": "Park Avenue, USA"
           }
       ]
   }

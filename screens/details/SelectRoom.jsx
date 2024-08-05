@@ -10,54 +10,45 @@ const SelectRoom = ({navigation}) => {
     {
         "_id": "64c631650298a05640539adx",
         "country_id": "64c62bfc65af9f8c969a8d03",
-        "title": "Dalada Maligawa",
-        "location": "Sri Lanka",
-        "imageUrl": "https://live.staticflickr.com/6156/6132317112_1fa36d6fbf_b.jpg",
+        "title": "Single Room",
+        "location": "Room No: 202",
+        "imageUrl": "https://brend-imperial.co.uk/sites/default/files/styles/940x690/public/2023-07/room-100-single-room.jpg?h=c6980913&itok=opDVHlGP",
         "rating": 4.6,
         "review": "1200 Reviews"
     },
     {
         "_id": "64c631650298a05640539adc",
         "country_id": "64c62bfc65af9f8c969a8d04",
-        "title": "Walt Disney World",
-        "location": "U.S.A. New York",
-        "imageUrl": "https://img.freepik.com/premium-photo/statue-liberty-new-york-city-skyline-usa_741910-5910.jpg",
+        "title": "Double Room",
+        "location": "Room No: 502",
+        "imageUrl": "https://cdn.traveltripper.io/site-assets/512_863_12597/media/2018-02-22-041437/large_DDBDB.jpg",
         "rating": 4.7,
         "review": "1204 Reviews"
     },
     {
         "_id": "64d062a3de20d7c932f1f70a",
         "country_id": "64c62bfc65af9f8c969a8d04",
-        "title": "Islamabad",
-        "location": "Pakisthan",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_yq7tniLXqJcKIGaZXXvH-fUyrQC_lUurg&s",
+        "title": "Triple Room",
+        "location": "Room No: 302",
+        "imageUrl": "https://grandbayon.com/wp-content/uploads/2017/10/deluxe-triple-city-view-5.jpg",
         "rating": 4.8,
         "review": "1452 Reviews"
     },
     {
         "_id": "64d09e3f364e1c37c8b4b13c",
         "country_id": "64c62bfc65af9f8c969a8d04",
-        "title": "Mumbai",
-        "location": "India",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtNbXLi8BL9f7cGjSpJS9IsiYa9_95H1fXzewAAiGAbN0aKJU4t2rHMwb-E8trzyaWXUs&usqp=CAU",
+        "title": "Quad Room",
+        "location": "Room No: 102",
+        "imageUrl": "https://d3avoj45mekucs.cloudfront.net/astrogempak/media/marcus-eic/6.jpg",
         "rating": 4.6,
         "review": "2145 Reviews"
     },
     {
         "_id": "64d09f90364e1c37c8b4b140",
         "country_id": "64c62bfc65af9f8c969a8d04",
-        "title": "London",
-        "location": "England",
-        "imageUrl": "https://i.natgeofe.com/n/4def1048-f5e5-4973-ad3a-e188a97d363f/regents-street-london-england.jpg",
-        "rating": 4.8,
-        "review": "24455 Reviews"
-    },
-    {
-        "_id": "64d30f789d008909fa8b7ce5",
-        "country_id": "64d2fd32618522e2fb342eec",
-        "imageUrl": "https://cdn.britannica.com/20/20120-050-89764C76/Tiananmen-entryway-Imperial-City-China-Beijing.jpg",
-        "title": "Beijing",
-        "location": "China",
+        "title": "Standard Room",
+        "location": "Room No: 702",
+        "imageUrl": "https://www.conservatoriumhotel.com/content/uploads/2022/09/Penthouse-Suite-900-3-1920x1080.jpg",
         "rating": 4.8,
         "review": "24455 Reviews"
     }
@@ -98,9 +89,12 @@ const SelectRoom = ({navigation}) => {
             </View>
             
             </View>
+            
           </View>
+          
         )}
       />
+      
     </View>
   )
 }
