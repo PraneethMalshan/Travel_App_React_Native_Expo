@@ -15,8 +15,11 @@ const HotelDetails = ({navigation}) => {
         "end": "2023-08-25T00:00:00.000Z"
     },
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194,
+      // "latitude": 37.7749,
+      // "longitude": -122.4194,
+      "latitude": 40.7128,
+      "longitude": 74.0060,
+     
     },
     "_id": "64d34be5329Sa816648298d0",
     "country_id": "64d2fd32618522e2fb342eec",

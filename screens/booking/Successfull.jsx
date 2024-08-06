@@ -10,11 +10,11 @@ const Successfull = ({navigation}) => {
         
             "_id": "64c67442776ed29f19727fd7",
             "country_id": "64c62bfc65af9f8c969a8d04",
-            "title": "Luxury Hotel 1",
-            "imageUrl": "https://www.hotel.de/de/media/image/79/13/cd/Alpha_Genesis_Hotel-Kuala_Lumpur-Aussenansicht-537758.jpg",
+            "title": "The Plaza Hotel",
+            "imageUrl": "https://static.therealdeal.com/wp-content/uploads/2017/07/the-plaza.jpg",
             "rating": 4.7,
             "review": "1204 Reviews",
-            "location": "New York City, NY"
+            "location": "New York City, USA"
         
     }
 
